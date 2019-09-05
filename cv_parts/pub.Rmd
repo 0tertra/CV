@@ -1,0 +1,6 @@
+
+[1] De Bodt, S. , Hollunder, J. , Nelissen, H. , Meulemeester, N. 
+and Inzé, D. (2012),  
+CORNET 2.0: integrating plant coexpression, protein–protein  interactions, 
+regulatory interactions, gene associations and functional annotations. 
+New Phytologist, 195: 707-720. [doi:10.1111/j.1469-8137.2012.04184.x](https://doi.org/10.1111/j.1469-8137.2012.04184.x)

@@ -1,0 +1,11 @@
+# Skills 
+
+## Technologies
+* R language
+* SQL
+* GIT
+* Bash
+
+## Languages
+* Dutch: native
+* English: fluent

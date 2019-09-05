@@ -1,0 +1,35 @@
+# Education
+
+```{r intern}
+tribble(
+  ~what, 
+  ~when, 
+  ~with, 
+  ~where, 
+  ~why,
+  "Bachelor internship", 
+  "2011",
+  "VIB",
+  "Ghent",
+  "CORNET 2.0: integrating plant coexpression, protein–protein  interactions, 
+   regulatory interactions, gene associations and functional annotations.[1]"
+) %>% 
+detailed_entries(what, when, with, where, why) -> intern
+```
+
+
+\vspace{0.2cm}  
+```{r edu}
+cat("\n\n")
+
+edu <- read.csv("../data/edu.csv")
+ 
+edu <- 
+  detailed_entries(edu,
+    what = `education.summary.role.title`,
+    when = when,
+    with = `education.summary.organization.name`,
+    where = `education.summary.organization.address.city`,
+    why = why
+  ) 
+```
