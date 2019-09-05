@@ -1,0 +1,52 @@
+---
+name: Nick
+surname: Meulemeester
+address: "Olympiadeplein 15, 9000 Gent"
+phone: +32 498 67 90 65
+email: "meulemeesternick@hotmail.com"
+github: "0tertra/cv"
+linkedin: NickMeulemeester
+date: "`r format(Sys.time(), '%B %Y')`"
+output: github_document
+---
+
+This readmy contains the raw information for my CV based on information pulled from [orcid](https://orcid.org/) or provided manualy.
+
+# Raw cv information
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+```{r child = 'cv_parts/empl.Rmd'}
+```
+
+```{r}
+knitr::kable(empl)
+```
+
+```{r child = 'cv_parts/edu.Rmd'}
+```
+
+```{r}
+edu$why <- as.character(edu$why)
+intern$why <- as.character(intern$why)
+education <- dplyr::full_join(intern, edu)
+knitr::kable(education)
+```
+
+```{r child = 'cv_parts/skills.Rmd'}
+```
+
+```{r child = 'cv_parts/dev_conf.Rmd'}
+```
+
+```{r}
+knitr::kable(dev_conf)
+```
+---
+
+```{r child = 'cv_parts/pub.Rmd'}
+```
