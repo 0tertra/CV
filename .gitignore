@@ -38,3 +38,5 @@ rsconnect/
 
 # cover letter doen't go on github
 cover.*
+# personal data shouldn't either
+personal_info.Rmd
