@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.2)  4 SEP 2019 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.2)  5 SEP 2019 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**twenty_seconds.tex
-(./twenty_seconds.tex
+**Nick_Meulemeester.tex
+(./Nick_Meulemeester.tex
 LaTeX2e <2018-12-01>
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2018/11/24 CV class
@@ -908,8 +908,8 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-(./twenty_seconds.aux)
-\openout1 = `twenty_seconds.aux'.
+(./Nick_Meulemeester.aux)
+\openout1 = `Nick_Meulemeester.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
@@ -1015,9 +1015,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 81.
 LaTeX Info: Redefining \pageref on input line 81.
 LaTeX Info: Redefining \nameref on input line 81.
-(./twenty_seconds.out) (./twenty_seconds.out)
+(./Nick_Meulemeester.out) (./Nick_Meulemeester.out)
 \@outlinefile=\write4
-\openout4 = `twenty_seconds.out'.
+\openout4 = `Nick_Meulemeester.out'.
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 90.
@@ -1049,20 +1049,10 @@ File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
 )
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 (Font)              scaled to size 8.6pt on input line 90.
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[][]$\T1/DejaVuSansMono-TLF/m/n/10 meulemeesternick @ hotmail .
- []
-
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 98.
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
+(Font)              scaled to size 8.0pt on input line 101.
 LaTeX Font Info:    Try loading font information for TS1+ClearSans-LF on input 
-line 104.
+line 101.
 
 (c:/Users/MeulemN/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/clearsans/TS1Cle
 arSans-LF.fd
@@ -1070,21 +1060,24 @@ File: TS1ClearSans-LF.fd 2014/03/14 (autoinst) Font definitions for TS1/ClearSa
 ns-LF.
 )
 LaTeX Font Info:    Font shape `TS1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 104.
+(Font)              scaled to size 10.0pt on input line 101.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 4254) in paragraph at lines 101--101
+[]\T1/ClearSans-LF/m/n/10 Supporting and de-vel-op-ing phe-no-typ-ing data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
+Underfull \hbox (badness 1337) in paragraph at lines 111--111
+[]\T1/ClearSans-LF/m/n/10 A sci-en-tific course with the fo-cus on bi-ol-ogy,
  []
 
-LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 114.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
@@ -1092,12 +1085,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
 {c:/Users/MeulemN/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}]
+LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 119.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 148.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 148.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 148.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/sl' in size <10> not availabl
 e
 (Font)              Font shape `T1/ClearSans-LF/m/it' tried instead on input li
-ne 152.
+ne 158.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 152.
+(Font)              scaled to size 10.0pt on input line 158.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
 Make it at least 8.39996pt.
@@ -1111,23 +1112,23 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
-(./twenty_seconds.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
-Package rerunfilecheck Info: File `twenty_seconds.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+(./Nick_Meulemeester.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package rerunfilecheck Info: File `Nick_Meulemeester.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
 (\end occurred when \ifnum on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 19754 strings out of 494553
- 366338 string characters out of 6175838
- 435672 words of memory out of 5000000
- 23039 multiletter control sequences out of 15000+600000
- 40764 words of font info for 31 fonts, out of 8000000 for 9000
+ 19776 strings out of 494553
+ 366603 string characters out of 6175838
+ 434664 words of memory out of 5000000
+ 23052 multiletter control sequences out of 15000+600000
+ 43500 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,11n,58p,804b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,58p,807b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/MeulemN/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{c:/U
 sers/MeulemN/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fon
@@ -1138,10 +1139,10 @@ dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc}<c:/Users/MeulemN/AppData/Roaming
 /MeulemN/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSan
 sMono.pfb><c:/Users/MeulemN/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
 ic/fontawesome/FontAwesome.pfb>
-Output written on twenty_seconds.pdf (2 pages, 43069 bytes).
+Output written on Nick_Meulemeester.pdf (2 pages, 43540 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 10 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

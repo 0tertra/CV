@@ -1,12 +1,9 @@
 ---
 name: Nick
 surname: Meulemeester
-#position: "Professor"
-address: "Olympiadeplein 15, 9000 Gent"
-phone: +32 498 67 90 65
-#www: mariecurie.com
-email: "meulemeesternick@hotmail.com"
-#twitter: mariecurie
+address: "placeholder 1, 9000 Gent"
+phone: +32 000 00 00 00
+email: "dummy@dummy.com"
 github: "0tertra/cv"
 linkedin: NickMeulemeester
 date: "`r format(Sys.time(), '%B %Y')`"
@@ -19,94 +16,34 @@ library(vitae)
 library(tibble)
 ```
 
-# Employment
 
-```{r empl}
-empl <- read.csv("../data/empl.csv")
-
-empl %>% 
-detailed_entries(empl,
-  what = employment.summary.role.title,
-  when = when,
-  with = employment.summary.organization.name,
-  where = employment.summary.organization.address.city,
-  why = NA
-  )
+```{r child = '../cv_parts/empl.Rmd'}
 ```
-
-# Education
-
-```{r intern}
-tribble(
-  ~what, 
-  ~when, 
-  ~with, 
-  ~where, 
-  ~why,
-  "Bachelor intership", 
-  "2011",
-  "VIB",
-  "Ghent",
-  "CORNET 2.0: integrating plant coexpression, protein–protein  interactions, 
-   regulatory interactions, gene associations and functional annotations.[1]"
-) %>% 
-detailed_entries(what, when, with, where, why)
-```
-
-
-\vspace{0.2cm}  
-```{r edu}
-cat("\n\n")
-
-edu <- read.csv("../data/edu.csv")
- 
-edu %>% 
-  detailed_entries(edu,
-    what = `education.summary.role.title`,
-    when = when,
-    with = `education.summary.organization.name`,
-    where = `education.summary.organization.address.city`,
-    why = NA
-  )
-```
-
-# Skils 
-
-## Technologies
-* R language
-* SQL
-* GIT
-* Bash
-
-## Languages
-* Dutch: native
-* English: fluent
-
-# Development activities & conferences
 
 ```{r}
-
-tribble(
-  ~what, ~when,
-"PhenoHarmonIS Workshop", 2018,
-"EARL 2018 conference", "",
-"PEP project management boot camp", 2017, 
-"Semantic data analytics conference", "",
-"Managing Personal Growth", "",
-"UserR2017 conference", "",
-"EARL 2016 conference", 2016,
-"StrengthFinder Seminar", "",
-"Setting SMART Objectives session", "",
-"EARL 2015 conference", 2015,
-"Assertive communication skills", ""
-) %>% 
-  detailed_entries(what, when)
-
-
+empl
 ```
 
-[1] De Bodt, S. , Hollunder, J. , Nelissen, H. , Meulemeester, N. 
-and Inzé, D. (2012),  
-CORNET 2.0: integrating plant coexpression, protein–protein  interactions, 
-regulatory interactions, gene associations and functional annotations. 
-New Phytologist, 195: 707-720. [doi:10.1111/j.1469-8137.2012.04184.x](https://doi.org/10.1111/j.1469-8137.2012.04184.x)
+```{r child = '../cv_parts/edu.Rmd'}
+```
+
+```{r}
+intern
+edu
+```
+
+\pagebreak
+
+```{r child = '../cv_parts/skills.Rmd'}
+```
+
+```{r child = '../cv_parts/dev_conf.Rmd'}
+```
+
+```{r}
+dev_conf
+```
+---
+
+```{r child = '../cv_parts/pub.Rmd'}
+```
