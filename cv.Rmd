@@ -1,11 +1,6 @@
 ---
 name: Nick
 surname: Meulemeester
-address: "Olympiadeplein 15, 9000 Gent"
-phone: +32 498 67 90 65
-email: "meulemeesternick@hotmail.com"
-github: "0tertra/cv"
-linkedin: NickMeulemeester
 date: "`r format(Sys.time(), '%B %Y')`"
 output: github_document
 ---
