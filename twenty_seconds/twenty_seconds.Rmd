@@ -4,6 +4,7 @@ surname: Meulemeester
 address: "placeholder 1, 9000 Gent"
 phone: +32 000 00 00 00
 email: "dummy@dummy.com"
+profilepic: Portrait-LoRes-274.jpg
 github: "0tertra/cv"
 linkedin: NickMeulemeester
 date: "`r format(Sys.time(), '%B %Y')`"

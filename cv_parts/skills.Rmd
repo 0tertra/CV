@@ -1,19 +1,12 @@
 # Skills 
 
-```{r}
+## Technologies
 
-tribble(
-  ~Technologies, ~Skill,
-"R language","advanced",
-"Python", "novice",
-"SQL", "intermediate",
-"GIT", "intermediate",
-"Bash", "intermediate"
-) -> skills
-
-skills
-```
-
+* R language: advanced
+* Python: novice
+* SQL: intermediate
+* GIT: intermediate
+* Bash: intermediate
 
 ## Languages
 * Dutch: native
