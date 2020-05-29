@@ -5,17 +5,22 @@
 
 tribble(
   ~what, ~when,
-"PhenoHarmonIS Workshop", 2018,
+"PhenoHarmonIS Workshop", "2018",
 "EARL 2018 conference", "",
-"PEP project management boot camp", 2017, 
+"PEP project management boot camp", "2017", 
 "Semantic data analytics conference", "",
 "Managing Personal Growth", "",
 "UserR2017 conference", "",
-"EARL 2016 conference", 2016,
+"EARL 2016 conference", "2016",
 "StrengthFinder Seminar", "",
 "Setting SMART Objectives session", "",
-"EARL 2015 conference", 2015,
-"Assertive communication skills", ""
+"EARL 2015 conference", "2015",
+"Assertive communication skills", "",
+"Elective courses during Bachlor", "2011",
+"- Bio-Imaging", "",
+"- Current Web technologies ", "",
+"- Web design", "",
+"- Introduction to laboratory animal science", ""
 ) %>% 
   detailed_entries(what, when) -> dev_conf
 

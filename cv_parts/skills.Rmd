@@ -1,10 +1,19 @@
 # Skills 
 
-## Technologies
-* R language
-* SQL
-* GIT
-* Bash
+```{r}
+
+tribble(
+  ~Technologies, ~Skill,
+"R language","advanced",
+"Python", "novice",
+"SQL", "intermediate",
+"GIT", "intermediate",
+"Bash", "intermediate"
+) -> skills
+
+skills
+```
+
 
 ## Languages
 * Dutch: native
