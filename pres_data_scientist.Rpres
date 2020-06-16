@@ -1,0 +1,103 @@
+Data scientist interview
+========================================================
+author: Nick Meulemeester
+date: `r format(Sys.time(), '%B %Y')`
+autosize: true
+
+<!-- First Slide -->
+<!-- ======================================================== -->
+
+<!-- Beste Nick, -->
+
+<!-- Ik zou je willen vragen om een korte presentatie te maken  die gebruikt zal worden tijdens het gesprek van 16 juni tussen 13u en 14u.  -->
+
+About me
+========================================================
+
+<!-- jezelf voorstelt + motivatie (waarom je voor de positie hebt gesolliciteerd) -->
+I'm currently in the fifth year of my role as a 
+junior researcher in the precision phenotyping team,  
+and have a background as a bachelor bioinformatics.  
+
+Some of my responsabilities within the team include:
+* Supporting experimental design.
+* Developing, implement and support an up-to-date
+analysis toolbox.
+
+I also represent trait evaluation/research in multiple projects.
+
+Outside of work, some of my hobbies include scuba diving, going to the gym 
+and building my own keyboards.
+
+Motivation
+========================================================
+
+While my experince and learnings from working in global projects 
+will be an additinial value and still be part of the responsibilities. 
+
+My main driver for applying is the ability to focus more on the data analysis 
+aspects of the position.  
+This being the developing, optimizing and implemtation of 
+the data analysis workflows and toolsets. 
+But also keeping up to data with the latest technologies and methods.
+
+Key skills and capabilities
+========================================================
+
+<!-- Kort overzicht van je key skills en capabilities (technisch, leadership, coaching, …) -->
+### Technologies
+ * R, Python, SQL, GIT, Bash
+
+### capabilities
+ * Quick learner
+ * Problem-solving
+ * lateral leadership 
+
+Impact
+========================================================
+<!-- Één of enkele voorbeelden geven van de impact die je reeds hebt gehad: belangrijkste achievements, learnings, failures  -->
+Contributions to the DM4P (data management for phenotyping) project:  
+* API testing during development.
+* Integration in the field trail analysis pipeline
+
+    + Takeaways
+        + Combine the testing and developing 
+        for a head start with the development.
+        + My first development with API's into production.
+        + Seperate API's for UI and data retrieval 
+        would have been more efficient.
+        
+Impact (2)
+========================================================
+
+Genotype upload tool for pippa.  
+By using selenium in a python desktop app to 
+
+* Takeaways
+    + Even this is no final solution, 
+    a quick win can make a big diference for the user.
+        + Not every project need to be 100% perfect.
+
+Impact (3)
+========================================================
+
+Trying to find a solution for (stand-alone) image storage and managment.
+
+* Takeaways
+    + Stakeholder managment can be the most important part of a project.
+    + Know when to accept a failure and stop spending resources 
+    or put the idea on hold until a better opportunity. 
+
+Data scientist role
+========================================================
+
+<!-- Positie is binnen de scientist familie:  -->
+<!-- hoe zie jij je bijdrage als (data) scientist binnen het phenotyping team -->
+As part of the phenotyping team,  
+
+I'll not only implement and develop workflows and tools.  
+But also contribute to the active research projects by either supporting  
+or executing the set up of experiments and analysing of the data.  
+
+I will also proactively stay on top of the latest devopments in the field  
+and search for opportunities to improve our workflows or implement new ideas.
