@@ -18,6 +18,9 @@ empl <- reduce(
    )
 empl$when <- glue::glue("{empl$`employment-summary.start-date.year.value`} - {empl$`employment-summary.end-date.year.value`}")
 empl$why <- c(
+  #basf junior data scientist
+  "Internal vacancy to move from researcher to scientist.
+  simular tasks with more responsibility.",
   #basf
   "Acquired Bayer CropScience division in August 2018.",
   #bayer junior researcher
@@ -49,6 +52,8 @@ edu <- reduce(
    )
 edu$when <- glue::glue("{edu$`education-summary.start-date.year.value`} - {edu$`education-summary.end-date.year.value`}")
 edu$why <- c(
+  #howest ai@home
+  "Machine and deep learning courses from the Bachelor Multimedia en Creatieve Technologie (MCT)- elective track AI engineer in distance learning.",
   #howest
   "An interdisciplinary science course that combines domains as biology, 
   computer science and information engineering to 

@@ -2,8 +2,10 @@
 
 ## Technologies
 
-* R language: advanced
-* Python: novice
+* R language: 
+  + package development: advanced
+  + shiny: advanced
+* Python: intermediate
 * SQL: intermediate
 * GIT: intermediate
 * Bash: intermediate

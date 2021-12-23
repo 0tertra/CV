@@ -5,10 +5,10 @@ empl <- read.csv("../data/empl.csv")
 
 empl <-
 detailed_entries(empl,
-  what = employment.summary.role.title,
-  when = when,
-  with = employment.summary.organization.name,
-  where = employment.summary.organization.address.city,
-  why = why
+  employment.summary.role.title,
+  when,
+  employment.summary.organization.name,
+  employment.summary.organization.address.city,
+  why
   ) 
 ```

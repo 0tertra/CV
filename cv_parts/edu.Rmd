@@ -26,10 +26,10 @@ edu <- read.csv("../data/edu.csv")
  
 edu <- 
   detailed_entries(edu,
-    what,
+    education.summary.role.title,
     when,
-    with,
-    where,
+    education.summary.organization.name,
+    education.summary.organization.address.city,
     why
   ) 
 ```
